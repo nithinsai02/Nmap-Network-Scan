@@ -1,0 +1,57 @@
+# Nmap Scan Results
+# Command:
+# nmap -sS -sV -O 10.0.2.15/24
+# Date: 2025-11-13
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-13 01:39 EST
+
+------------------------------------------------------------
+Nmap scan report for 10.0.2.2
+Host is up (0.0017s latency).
+Not shown: 998 filtered tcp ports (no-response)
+
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+445/tcp open  microsoft-ds?
+
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter | general purpose | bridge
+Running (JUST GUESSING): AT&T embedded (99%), QEMU (95%), Oracle Virtualbox (94%), Slirp (94%)
+OS CPE: cpe:/a:qemu:qemu cpe:/a:oracle:vm_virtualbox cpe:/a:danny_gasparovski:slirp
+Aggressive OS guesses: AT&T BGV210 voice gateway (99%), QEMU user mode network gateway (95%), Oracle Virtualbox Slirp NAT bridge (94%)
+No exact OS matches for host (test conditions non-ideal)
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+------------------------------------------------------------
+Nmap scan report for 10.0.2.3
+Host is up (0.00074s latency).
+All 1000 scanned ports on 10.0.2.3 are in ignored states.
+Not shown: 999 filtered tcp ports (net-unreach), 1 filtered tcp port (no-response)
+
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: QEMU
+OS CPE: cpe:/a:qemu:qemu
+OS details: QEMU user mode network gateway
+Network Distance: 1 hop
+
+------------------------------------------------------------
+Nmap scan report for 10.0.2.15
+Host is up (0.00075s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+------------------------------------------------------------
+
+OS and Service Detection Performed.
+Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 18.53 seconds
