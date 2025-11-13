@@ -112,14 +112,6 @@ All ports are closed → good security posture.
 
 ---
 
-## Screenshots
-Place your screenshots inside the **/screenshots** folder:
-- ifconfig.png  
-- nmap_basic_scan.png  
-- nmap_detailed_scan.png  
-
----
-
 ##  Files Included
 - `README.md` — Full documentation  
 - `scan_results.txt` — Saved Nmap output  
